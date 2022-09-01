@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form style="Swing" ide="eclipse" builder="jigloo" version="2.5.0">
+<ExtraComponents>
+		<Component class="javax.swing.JMenuBar" name="jMenuBar1">
+			<Constraints>
+				<LayoutConstraint/>
+			</Constraints>
+			<Layout class="Box">
+			</Layout>
+			<Events>
+			</Events>
+			<Properties>
+			</Properties>
+		</Component></ExtraComponents>
+	<Component class="javax.swing.JFrame" name="ChatEntrance">
+		<Constraints>
+			<LayoutConstraint/>
+		</Constraints>
+		<Layout class="Absolute">
+		</Layout>
+		<Events>
+			<EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" handler="ChatEntranceMouseReleased"/>
+			<EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" handler="rootComponentHidden"/>
+		</Events>
+		<Properties>
+			<Property name="size" type="Dimension">
+				<Dimension value="[259, 204]"/>
+			</Property>
+		</Properties>
+		<SubComponents>
+			<Component class="javax.swing.JLabel" name="jLabel1">
+				<Constraints>
+					<LayoutConstraint/>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="text" type="String" value="Chat"/>
+					<Property name="font" type="Font">
+						<Font name="" size="24" style="1"/>
+					</Property>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[60, 20]"/>
+					</Property>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[26, 25, 60, 20]"/>
+					</Property>
+				</Properties>
+			</Component>
+			<Component class="javax.swing.JButton" name="bt">
+				<Constraints>
+					<Constraint direction="Center"/>
+					<LayoutConstraint/>
+				</Constraints>
+				<Events>
+					<EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" handler="btMouseClicked"/>
+				</Events>
+				<Properties>
+					<Property name="text" type="String" value="Connect"/>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[135, 44]"/>
+					</Property>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[66, 127, 135, 44]"/>
+					</Property>
+				</Properties>
+			</Component>
+			<Component class="javax.swing.JTextField" name="nick">
+				<Constraints>
+					<Constraint direction="Center"/>
+					<LayoutConstraint/>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[86, 17]"/>
+					</Property>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[117, 60, 86, 17]"/>
+					</Property>
+				</Properties>
+			</Component>
+			<Component class="javax.swing.JLabel" name="jLabel2">
+				<Constraints>
+					<Constraint direction="North"/>
+					<LayoutConstraint/>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="text" type="String" value="Nick:"/>
+					<Property name="horizontalAlignment" type="int" value="4"/>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[60, 20]"/>
+					</Property>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[53, 59, 60, 20]"/>
+					</Property>
+				</Properties>
+			</Component>
+			<Component class="javax.swing.JLabel" name="jLabel3">
+				<Constraints>
+					<Constraint direction="East"/>
+					<LayoutConstraint/>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="text" type="String" value="Server IP:"/>
+					<Property name="horizontalAlignment" type="int" value="4"/>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[60, 20]"/>
+					</Property>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[52, 80, 60, 20]"/>
+					</Property>
+				</Properties>
+			</Component>
+			<Component class="javax.swing.JTextField" name="serverIp">
+				<Constraints>
+					<Constraint direction="Center"/>
+					<LayoutConstraint/>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[86, 17]"/>
+					</Property>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[117, 81, 86, 17]"/>
+					</Property>
+				</Properties>
+			</Component>
+		</SubComponents>
+	</Component>
+</Form>

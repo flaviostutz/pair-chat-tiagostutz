@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form style="Swing" ide="eclipse" builder="jigloo" version="2.5.0">
+<ExtraComponents>
+		<Component class="javax.swing.JMenuBar" name="jMenuBar1">
+			<Constraints>
+				<LayoutConstraint/>
+			</Constraints>
+			<Layout class="Box">
+			</Layout>
+			<Events>
+			</Events>
+			<Properties>
+			</Properties>
+		</Component></ExtraComponents>
+	<Component class="javax.swing.JFrame" name="ChatServer">
+		<Constraints>
+			<LayoutConstraint/>
+		</Constraints>
+		<Layout class="Border">
+			<Property name="vgap" type="int" value="0"/>
+			<Property name="hgap" type="int" value="0"/>
+		</Layout>
+		<Events>
+			<EventHandler event="windowClosed" listener="java.awt.event.WindowListener" handler="ChatServerWindowClosed"/>
+		</Events>
+		<Properties>
+			<Property name="size" type="Dimension">
+				<Dimension value="[467, 281]"/>
+			</Property>
+		</Properties>
+		<SubComponents>
+			<Component class="javax.swing.JList" name="users">
+				<Constraints>
+					<Constraint direction="Center"/>
+					<LayoutConstraint>
+						<Property name="direction" type="String" value="Center"/>
+					</LayoutConstraint>
+				</Constraints>
+				<Events>
+					<EventHandler event="componentHidden" listener="java.awt.event.ComponentListener" handler="usersComponentHidden"/>
+				</Events>
+				<Properties>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[177, 258]"/>
+					</Property>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[281, 0, 186, 258]"/>
+					</Property>
+				</Properties>
+			</Component>
+			<Component class="javax.swing.JTextArea" name="console">
+				<Constraints>
+					<Constraint direction="West"/>
+					<LayoutConstraint>
+						<Property name="direction" type="String" value="West"/>
+					</LayoutConstraint>
+				</Constraints>
+				<Events>
+				</Events>
+				<Properties>
+					<Property name="preferredSize" type="Dimension">
+						<Dimension value="[335, 281]"/>
+					</Property>
+					<Property name="bounds" type="Rectangle">
+						<Rectangle value="[0, 0, 335, 281]"/>
+					</Property>
+				</Properties>
+			</Component>
+		</SubComponents>
+	</Component>
+</Form>
